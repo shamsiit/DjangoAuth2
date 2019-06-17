@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'token/', views.token),
     url(r'token/refresh/', views.refresh_token),
     url(r'token/revoke/', views.revoke_token),
+    url(r'user/profile/', views.UserProfileView.as_view()),
 ]
